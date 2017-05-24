@@ -8,6 +8,6 @@
 Від обох класів породити по екземпляру відповідно fighter, improvedFighter.
 Створити функцію fight, яка прийматиме параметри - fighter, improvedFighter, і point.
 
-##fight може приймати довільну кількість параметрів. Наприклад, fight(fighter, improvedFighter, 25, 13, 45), де point = [25, 13, 45].
+## fight може приймати довільну кількість параметрів. Наприклад, fight(fighter, improvedFighter, 25, 13, 45), де point = [25, 13, 45].
 Ця функція запускатиме процес гри: гравці по черзі наносять удар один одному за допомогою методу hit, що приймає відповідне значення point. Якщо один із них помирає (health = 0), то гра закінчується і результат виводиться в консоль.
 При виконанні домашнього завдання необхідно використати: - block scoping (let) - spread / rest operator - default parameters - string interpolation - arrow functions - classes + inheritance + super
