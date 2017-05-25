@@ -36,7 +36,7 @@ class Fighter {
     }
 
     setDamage(damage = 0) {
-        return console.log(`health: ${this.health = this.health - damage > 0 ? this.health - damage : 0}`);
+        console.log(`health: ${this.health = this.health - damage > 0 ? this.health - damage : 0}`);
     }
 
     hit(enemy = {}, point = 0) {
